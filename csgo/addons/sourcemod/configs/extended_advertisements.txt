@@ -3,42 +3,25 @@
 	"1"
 	{
 		"type"		"S"
-		"text"		"Next map change is in {TIMELEFT}."
+		"text"		"Client test server provided by Laclede's LAN."
 		"flags"		""
 	}
 	"2"
 	{
 		"type"		"S"
-		"text"		"Current map: {DEFAULT}{CURRENTMAP}"
+		"text"		"This server may go down at any time"
 	}
 	"3"
 	{
 		"type"		"S"
-		"text"		"Join our Steam group! http://steamcommunity.com/groups/lacledes_lan"
+		"text"		"If you have any issues while playing on this test server let the Laclede's LAN staff know"
 		"flags"		""
 	}		
 	"4"
 	{
 		"type"		"S"
-		"text"		"We're on Twitter! Tweet us at @LacledesLAN."
+		"text"		"This server has the same rules as the tournament server."
 		"flags"		""
 	}	
-	"5"
-	{
-		"type"		"S"
-		"text"		"If there are any problems let us know at the admin table."
-		"flags"		""
-	}
-	"6"
-	{
-		"type"		"S"
-		"text"		"Lunch at 2:00 PM -- Dinner at 7:00 PM -- PIZZA provided at dinner!"
-		"flags"		""
-	}
-	"7"
-	{
-		"type"		"S"
-		"text"		"Soda / water available any two drinks for $1.00 ...while supplies last!"
-		"flags"		""
-	}
+
 }
