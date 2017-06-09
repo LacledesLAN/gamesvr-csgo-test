@@ -8,16 +8,15 @@ ENV IMAGE="gamesvr-srcds-csgo-test:linux"
 
 HEALTHCHECK NONE
 
-USER root
+# UPDATE USERNAME
+RUN usermod -l CSGO.Test CSGO
+
+USER CSGO.Test
 
 COPY ./dist /app/bin/
 
 COPY ./dist.linux /app/bin/csgo/
 
-# CLEAN UP
-RUN usermod -l CSGOTest CSGO
-
-#USER CSGOTest
-USER root
-	
 WORKDIR /app/bin/
+
+ENTRYPOINT ["/bin/sh"]
