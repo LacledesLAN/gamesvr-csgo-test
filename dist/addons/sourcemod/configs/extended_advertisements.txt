@@ -2,26 +2,34 @@
 {
 	"1"
 	{
-		"type"		"S"
-		"text"		"Client test server provided by Laclede's LAN."
-		"flags"		""
+		"type"		"C"
+		"text"		"www.domain.com"
 	}
 	"2"
 	{
-		"type"		"S"
-		"text"		"This server may go down at any time"
+		"type"		"CH"
+		"text"		"contact@domain.com"
 	}
 	"3"
 	{
-		"type"		"S"
-		"text"		"If you have any issues while playing on this test server let the Laclede's LAN staff know"
-		"flags"		""
-	}		
+		"type"		"M"
+		"text"		"Next map is {NEXTMAP} in {TIMELEFT} minutes."
+		"flags"		"cft"
+	}
 	"4"
 	{
 		"type"		"S"
-		"text"		"This server has the same rules as the tournament server."
-		"flags"		""
-	}	
-
+		"text"		"{GREEN}Current {LIGHTGREEN}Map: {DEFAULT}{CURRENTMAP}"
+	}
+	"5"
+	{
+		"type"		"T"
+		"text"		"{ORANGE}friendly fire is {CONVAR_BOOL:mp_friendlyfire}."
+	}
+	"6"
+	{
+		"type"		"S"
+		"text"		"{GREEN}Admins: Sourcemod version is {CONVAR:sourcemod_version} and advertisement plugin version is {CONVAR:sm_extended_advertisements_version}"
+		"flags"		"z"
+	}
 }
