@@ -2,12 +2,23 @@
 Docker image for client-test [Counter-Strike: Global Offensive](http://store.steampowered.com/app/730/) servers.
 
 # Linux Container
-[![](https://images.microbadger.com/badges/image/lacledeslan/gamesvr-srcds-csgo-test:linux.svg)](https://microbadger.com/images/lacledeslan/gamesvr-srcds-csgo-test:linux "Get your own image badge on microbadger.com")
-```
-docker pull lacledeslan/gamesvr-srcds-csgo-test:linux
+[![](https://images.microbadger.com/badges/version/lacledeslan/gamesvr-csgo-test.svg)](https://microbadger.com/images/lacledeslan/gamesvr-csgo-test "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/lacledeslan/gamesvr-csgo-test.svg)](https://microbadger.com/images/lacledeslan/gamesvr-csgo-test "Get your own image badge on microbadger.com")
+
+## Download
+
+```shell
+docker pull lacledeslan/gamesvr-csgo-test
 ```
 
-# Build Triggers
-Automated builds of this image can be triggered by the following sources:
-* [Commits on GitHub](https://github.com/LacledesLAN/gamesvr-srcds-csgo-test/)
-* [Upstream build of lacledeslan/gamesvr-srcds-csgo](https://hub.docker.com/r/lacledeslan/gamesvr-srcds-csgo/)
+## Run Interactive Server
+
+```shell
+docker run -it --rm --net=host lacledeslan/gamesvr-csgo-test ./srcds_run -game csgo +game_type 0 +game_mode 1 -tickrate 128 +mapgroup ll_orange +map orangebox_warmup_day +sv_lan 1
+```
+
+## Run Self Tests
+
+```shell
+docker run -it --rm --net=host lacledeslan/gamesvr-csgo-test ./ll-tests/gamesvr-csgo-test.sh
+```
