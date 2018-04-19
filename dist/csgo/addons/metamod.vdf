@@ -1,4 +1,4 @@
 "Plugin"
 {
-	"file"	"../tf/addons/metamod/bin/server"
+	"file"	"../csgo/addons/metamod/bin/server"
 }
