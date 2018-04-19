@@ -14,7 +14,7 @@ docker pull lacledeslan/gamesvr-csgo-test;
 ## Run Self Tests
 
 ```shell
-docker run -it --rm --net=host lacledeslan/gamesvr-csgo-test ./ll-tests/gamesvr-csgo-test.sh;
+docker run -it --rm lacledeslan/gamesvr-csgo-test ./ll-tests/gamesvr-csgo-test.sh;
 ```
 
 ## Run Interactive Server
