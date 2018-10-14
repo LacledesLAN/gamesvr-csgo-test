@@ -3,6 +3,8 @@
 This repository is maintained by [Laclede's LAN](https://lacledeslan.com). Its contents are heavily tailored and tweaked for use at our charity LAN-Parties. For third-parties we recommend using this repo only as a reference example and then building your own using [gamesvr-csgo](https://github.com/LacledesLAN/gamesvr-csgo) as the base image for your customized server.
 
 ## Linux Container
+
+[![Build Status](https://dev.azure.com/LacledesLAN/Game%20Servers/_apis/build/status/gamesvr-csgo-test)](https://dev.azure.com/LacledesLAN/Game%20Servers/_build/latest?definitionId=4)
 [![](https://images.microbadger.com/badges/version/lacledeslan/gamesvr-csgo-test.svg)](https://microbadger.com/images/lacledeslan/gamesvr-csgo-test "Get your own version badge on microbadger.com")
 [![](https://images.microbadger.com/badges/image/lacledeslan/gamesvr-csgo-test.svg)](https://microbadger.com/images/lacledeslan/gamesvr-csgo-test "Get your own image badge on microbadger.com")
 
